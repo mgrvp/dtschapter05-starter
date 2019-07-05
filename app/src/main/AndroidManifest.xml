@@ -9,16 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.RegisterResultActivity"></activity>
-        <activity android:name=".activity.SuccessActivity" />
-        <activity android:name=".activity.ResetPassword" />
-        <activity android:name=".activity.ForgotPassword" />
-        <activity android:name=".activity.WelcomeBack" />
-        <activity android:name=".activity.WelcomeSlideAssign" />
-        <activity android:name=".activity.WelcomeSlideSuperhero" />
-        <activity android:name=".activity.WelcomeSlideCalendar" />
-        <activity android:name=".activity.RegisterActivity" />
-        <activity android:name=".activity.MainActivity">
+        <activity android:name=".activities.RecyclerActivity"></activity>
+        <activity android:name=".activities.RegisterResultActivity" />
+        <activity android:name=".activities.SuccessActivity" />
+        <activity android:name=".activities.ResetPassword" />
+        <activity android:name=".activities.ForgotPassword" />
+        <activity android:name=".activities.WelcomeBack" />
+        <activity android:name=".activities.WelcomeSlideAssign" />
+        <activity android:name=".activities.WelcomeSlideSuperhero" />
+        <activity android:name=".activities.WelcomeSlideCalendar" />
+        <activity android:name=".activities.RegisterActivity" />
+        <activity android:name=".activities.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

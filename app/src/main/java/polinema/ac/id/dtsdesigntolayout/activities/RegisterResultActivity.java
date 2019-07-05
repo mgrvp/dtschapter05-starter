@@ -1,4 +1,4 @@
-package polinema.ac.id.dtsdesigntolayout.activity;
+package polinema.ac.id.dtsdesigntolayout.activities;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
