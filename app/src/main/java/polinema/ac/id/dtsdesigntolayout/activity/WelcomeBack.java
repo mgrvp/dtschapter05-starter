@@ -1,4 +1,4 @@
-package polinema.ac.id.dtsdesigntolayout;
+package polinema.ac.id.dtsdesigntolayout.activity;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -8,6 +8,8 @@ import android.util.Patterns;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import polinema.ac.id.dtsdesigntolayout.R;
 
 public class WelcomeBack extends AppCompatActivity {
 

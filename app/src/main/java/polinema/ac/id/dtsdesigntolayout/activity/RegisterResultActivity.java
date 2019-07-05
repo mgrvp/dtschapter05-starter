@@ -1,9 +1,10 @@
-package polinema.ac.id.dtsdesigntolayout;
+package polinema.ac.id.dtsdesigntolayout.activity;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 
+import polinema.ac.id.dtsdesigntolayout.R;
 import polinema.ac.id.dtsdesigntolayout.models.Register;
 
 public class RegisterResultActivity extends AppCompatActivity {

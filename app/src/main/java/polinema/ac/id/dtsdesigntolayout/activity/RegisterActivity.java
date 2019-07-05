@@ -1,14 +1,14 @@
-package polinema.ac.id.dtsdesigntolayout;
+package polinema.ac.id.dtsdesigntolayout.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 
+import polinema.ac.id.dtsdesigntolayout.R;
 import polinema.ac.id.dtsdesigntolayout.models.Register;
 
 public class RegisterActivity extends AppCompatActivity {
