@@ -3,6 +3,8 @@ package polinema.ac.id.dtsdesigntolayout.activities;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+import polinema.ac.id.dtsdesigntolayout.R;
+
 public class RecyclerActivity extends AppCompatActivity {
 
     @Override
