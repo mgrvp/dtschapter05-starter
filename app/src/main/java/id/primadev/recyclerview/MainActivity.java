@@ -10,6 +10,9 @@ import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.List;
 
+import id.primadev.recyclerview.Adapter.ContactAdapter;
+import id.primadev.recyclerview.Model.Contact;
+
 public class MainActivity extends AppCompatActivity implements ContactAdapter.OnContactClickListener {
 
     public RecyclerView rv;
@@ -24,22 +27,7 @@ public class MainActivity extends AppCompatActivity implements ContactAdapter.On
 
         rv = findViewById(R.id.rvContact);
 
-        listContact.add(new Contact("Iron Man",
-                "102018308",
-                "https://cdn4.iconfinder.com/data/icons/famous-characters-add-on-vol-1-flat/48/Famous_Character_-_Add_On_1-14-512.png"));
-
-        listContact.add(new Contact("Bat Man",
-                "102018309",
-                "https://cdn4.iconfinder.com/data/icons/famous-characters-add-on-vol-1-flat/48/Famous_Character_-_Add_On_1-22-512.png"));
-
-        listContact.add(new Contact("Groot",
-                "102018307",
-                "https://cdn4.iconfinder.com/data/icons/famous-characters-add-on-vol-1-flat/48/Famous_Character_-_Add_On_1-21-512.png"));
-
-        listContact.add(new Contact("Sonic",
-                "102018301",
-                "https://cdn4.iconfinder.com/data/icons/famous-characters-add-on-vol-1-flat/48/Famous_Character_-_Add_On_1-26-512.png"));
-
+       //buat array list kontak (nama, telepon, url gambar)
 
         contactAdapter = new ContactAdapter(listContact);
         contactAdapter.setListener(this);
