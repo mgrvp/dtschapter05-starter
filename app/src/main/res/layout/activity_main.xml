@@ -7,5 +7,5 @@
     tools:context="id.primadev.recyclerview.MainActivity">
 
 
-    //buat widget recycle view
+    //widget recycle view
 </android.support.constraint.ConstraintLayout>

@@ -10,8 +10,7 @@ import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.List;
 
-import id.primadev.recyclerview.Adapter.ContactAdapter;
-import id.primadev.recyclerview.Model.Contact;
+
 
 public class MainActivity extends AppCompatActivity implements ContactAdapter.OnContactClickListener {
 
@@ -26,8 +25,8 @@ public class MainActivity extends AppCompatActivity implements ContactAdapter.On
         setContentView(R.layout.activity_main);
 
         rv = findViewById(R.id.rvContact);
+        //List kontak yang akan di tampilkan (nama, telepon, url gambar
 
-       //buat array list kontak (nama, telepon, url gambar)
 
         contactAdapter = new ContactAdapter(listContact);
         contactAdapter.setListener(this);
